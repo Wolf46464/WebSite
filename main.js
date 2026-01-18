@@ -166,7 +166,7 @@ const Material_White = new THREE.MeshStandardMaterial({
   envMap: textureCube
 });
 
-const Material_Yellow = new THREE.MeshBasicMaterial({
+const Material_Yellow = new THREE.MeshStandardMaterial({
   color: 0xeeee00,
   
   envMap: textureCube
@@ -687,4 +687,5 @@ tunnel.rotation.y += 0.001;     // move toward camera
 
 
 animate();
+
 
