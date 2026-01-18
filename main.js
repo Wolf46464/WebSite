@@ -168,7 +168,8 @@ const Material_White = new THREE.MeshStandardMaterial({
 
 const Material_Yellow = new THREE.MeshStandardMaterial({
   color: 0xeeee00,
-  
+  metalness: 0.1,
+  roughness: 0.1,
   envMap: textureCube
 });
 
@@ -687,5 +688,6 @@ tunnel.rotation.y += 0.001;     // move toward camera
 
 
 animate();
+
 
 
