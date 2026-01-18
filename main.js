@@ -141,10 +141,11 @@ const Material_6 = new THREE.MeshBasicMaterial({
       envMap: textureCube
 
     });
-const Material_7 = new THREE.MeshBasicMaterial({
+const Material_7 = new THREE.MeshStandardMaterial({
       color: 0x01ffff, 
       //transparent: true,
       //opacity: 0.7,
+	  metalness: 0.8,
       envMap: textureCube
 
     });
@@ -686,3 +687,4 @@ tunnel.rotation.y += 0.001;     // move toward camera
 
 
 animate();
+
