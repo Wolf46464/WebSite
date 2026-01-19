@@ -532,7 +532,7 @@ function setScreenImage(path) {
       if(Pressed_Button===3 || Start_Button_pressed===false){
         return;
       }
-      setScreenImage('./Contact_3.png');
+      setScreenImage('./Contact_4.png');
       Button_Info.rotation.x += Math.PI / 4;
       Button_CV.quaternion.copy(Start_Position_CV);
       Button_Hakemus.quaternion.copy(Start_Position_Hakemus);
@@ -683,6 +683,7 @@ tunnel.rotation.y += 0.001;     // move toward camera
  
   renderer.render(scene, camera);
 }
+
 
 
 animate();
